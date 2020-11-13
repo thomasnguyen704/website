@@ -1,14 +1,13 @@
 <template>
-  <b-jumbotron
-    class="vertical-center jumbotron"
-  >
-    <video src="../assets/jumbo_video.mp4" autoplay loop playsinline muted></video>
-    <template #header class='cursive'>Plat</template>
+  <b-jumbotron  id="jumbo" text-variant="white" fluid class="customjumbo" lead-tag="h2" header-tag="h1">
+    <template #header ><h1 class="cursive display-1">Plat</h1></template>
 
-    <template #lead>
+    <template #lead >
       Some subtitle
     </template>
-      <b-button variant="primary" href="#content">More</b-button>
+    <video src="../assets/jumbo_video.mp4" autoplay loop playsinline muted></video>
+      
+    <b-button variant="primary" href="#content">More</b-button>
   </b-jumbotron>
 </template>
 
@@ -23,13 +22,21 @@ export default {
 
 
 <style scoped>
-.jumbotron {
+#jumbo {
   margin: 0px;
   border-radius: 0 !important;
   width: 100%;
   height: 100%;
   position: relative;
   overflow: hidden;
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.container{
+  z-index: 1;
+  text-align: center;
 }
 video {
   position: absolute;
@@ -41,15 +48,10 @@ video {
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  z-index: 0;
+  z-index: -500;
 }
 .cursive {
   font-family: "Pacifico", cursive;
 }
-.vertical-center {
-  min-height: 100%;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-}
+
 </style>
