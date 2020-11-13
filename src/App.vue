@@ -1,8 +1,10 @@
 <template>
+<div>
   <Nav />
   <Jumbotron />
   <Content />
   <Footer />
+</div>
 </template>
 
 <script>

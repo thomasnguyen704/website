@@ -1,9 +1,9 @@
 <template>
-  <b-navbar toggleable="lg" type="dark" variant="info">
-    <b-navbar-brand href="#">Plat</b-navbar-brand>
+  <b-navbar toggleable="lg" type="dark" variant="dark" fixed="top">
+    <b-navbar-brand  href="#" id="brand">Plat</b-navbar-brand>
     <b-navbar-toggle target="navbarSupportedContent"></b-navbar-toggle>
     <b-collapse id="navbarSupportedContent" is-nav>
-      <b-navbar-nav>
+      <b-navbar-nav class="mr-auto" small>
         <b-nav-item href="#">Link1</b-nav-item>
         <b-nav-item href="#">Link2</b-nav-item>
       </b-navbar-nav>
@@ -20,7 +20,7 @@ export default {
 };
 </script>
 <style scoped>
-.navbar-brand {
+#brand {
   font-family: "Pacifico", cursive;
 }
 </style>

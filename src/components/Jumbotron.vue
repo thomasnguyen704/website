@@ -1,15 +1,13 @@
 <template>
-  <b-jumbotron
-    header="BootstrapVue"
-    lead="Bootstrap v4 Components for Vue.js 2"
-    class="vertical-center jumbotron"
-  >
-    <video src="jumbo_video.mp4" autoplay loop playsinline muted></video>
-    <b-container>
-      <h1 class="display-1 pb-3">Plat</h1>
-      <h2 class="lead">Some subtitle</h2>
-      <b-button variant="primary" href="#content">More</b-button>
-    </b-container>
+  <b-jumbotron  id="jumbo" text-variant="white" fluid class="customjumbo" lead-tag="h2" header-tag="h1">
+    <template #header ><h1 class="cursive display-1">Plat</h1></template>
+
+    <template #lead >
+      Some subtitle
+    </template>
+    <video src="../assets/jumbo_video.mp4" autoplay loop playsinline muted></video>
+      
+    <b-button variant="primary" href="#content">More</b-button>
   </b-jumbotron>
 </template>
 
@@ -24,13 +22,21 @@ export default {
 
 
 <style scoped>
-.jumbotron {
+#jumbo {
   margin: 0px;
   border-radius: 0 !important;
   width: 100%;
   height: 100%;
   position: relative;
   overflow: hidden;
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.container{
+  z-index: 1;
+  text-align: center;
 }
 video {
   position: absolute;
@@ -42,15 +48,10 @@ video {
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  z-index: 0;
+  z-index: -500;
 }
-.jumbotron h1 {
+.cursive {
   font-family: "Pacifico", cursive;
 }
-.vertical-center {
-  min-height: 100%;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-}
+
 </style>

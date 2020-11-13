@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: "Jumbotron",
+  name: "Footer",
   /*props: {
     msg: String,
   },*/
