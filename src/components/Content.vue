@@ -4,21 +4,29 @@
       <b-container>
         <p class="display-4">We live to...</p>
         <p class="lead">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Plat is not just a financial management app, it’s also a way of
+          living. At Plat we want you to live your best life and we know
+          finances are part of that life. Plat helps you to budget without
+          budgeting, we give without taking credit, and we guide you on your
+          financial journey without interfering.
         </p>
       </b-container>
     </b-container>
     <b-container id="section2" class="bg-light" fluid>
       <b-container>
         <b-row>
-          <b-col sm="6">Maybe an example from Kim</b-col>
-          <b-col sm="6">Perhaps a technical explanation from the example</b-col>
+          <b-col sm="6"
+            >Plat identifies your recurring bills and your income and disburses
+            the average difference daily. With Plat, you know exactly how much
+            you can spend each day to stay in the green! Behind the scenes, Plat
+            is a debt product and simply by using the app you will build or
+            repair your credit score!</b-col
+          >
+          <b-col sm="6">
+            We partner with FDIC insured banks to ensure the safety and
+            integrity of your relationship with Plat. Plat uses the latest
+            security techniques to ensure that your data remains private.
+          </b-col>
         </b-row>
       </b-container>
     </b-container>

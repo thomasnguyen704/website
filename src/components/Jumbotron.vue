@@ -1,12 +1,23 @@
 <template>
-  <b-jumbotron  id="jumbo" text-variant="white" fluid class="customjumbo" lead-tag="h2" header-tag="h1">
-    <template #header ><h1 class="cursive display-1">Plat</h1></template>
+  <b-jumbotron
+    id="jumbo"
+    text-variant="white"
+    fluid
+    class="customjumbo"
+    lead-tag="h2"
+    header-tag="h1"
+  >
+    <template #header><h1 class="cursive display-1">Plat</h1></template>
 
-    <template #lead >
-      Some subtitle
-    </template>
-    <video src="../assets/jumbo_video.mp4" autoplay loop playsinline muted></video>
-      
+    <template #lead> Everyday is Payday! </template>
+    <video
+      src="../assets/jumbo_video.mp4"
+      autoplay
+      loop
+      playsinline
+      muted
+    ></video>
+
     <b-button variant="primary" href="#content">More</b-button>
   </b-jumbotron>
 </template>
@@ -34,7 +45,7 @@ export default {
   display: flex;
   align-items: center;
 }
-.container{
+.container {
   z-index: 1;
   text-align: center;
 }
@@ -53,5 +64,4 @@ video {
 .cursive {
   font-family: "Pacifico", cursive;
 }
-
 </style>
