@@ -1,11 +1,12 @@
 <template>
   <b-navbar toggleable="lg" type="dark" variant="dark" fixed="top">
-    <b-navbar-brand  href="#" id="brand">Plat</b-navbar-brand>
+    <b-navbar-brand href="#" id="brand">Plat</b-navbar-brand>
     <b-navbar-toggle target="navbarSupportedContent"></b-navbar-toggle>
     <b-collapse id="navbarSupportedContent" is-nav>
       <b-navbar-nav class="mr-auto" small>
-        <b-nav-item href="#">Link1</b-nav-item>
-        <b-nav-item href="#">Link2</b-nav-item>
+        <b-nav-item href="#mission">Mission</b-nav-item>
+        <b-nav-item href="#howitworks">How it works</b-nav-item>
+        <b-nav-item href="#about">About us</b-nav-item>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>

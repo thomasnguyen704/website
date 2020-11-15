@@ -1,6 +1,6 @@
 <template>
   <article id="content">
-    <b-container id="section1" fluid>
+    <b-container id="mission" fluid>
       <b-container>
         <p class="display-4">We live to...</p>
         <p class="lead">
@@ -12,7 +12,7 @@
         </p>
       </b-container>
     </b-container>
-    <b-container id="section2" class="bg-light" fluid>
+    <b-container id="howitworks" class="bg-light" fluid>
       <b-container>
         <b-row>
           <b-col sm="6"
@@ -30,7 +30,7 @@
         </b-row>
       </b-container>
     </b-container>
-    <b-container id="section3" fluid>
+    <b-container id="about" fluid>
       <b-container>
         <p class="display-4">About the Team</p>
         <b-card-group deck>
@@ -123,13 +123,13 @@ export default {
 </script>
 
 <style scoped>
-#section1 {
+#mission {
   padding-top: 10%;
   padding-bottom: 10%;
   text-align: center;
 }
-#section2,
-#section3 {
+#howitworks,
+#about {
   min-height: 80vh;
   padding-top: 10%;
   padding-bottom: 10%;
