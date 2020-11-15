@@ -1,6 +1,15 @@
 <template>
   <b-navbar toggleable="lg" type="dark" variant="dark" fixed="top">
-    <b-navbar-brand href="#" id="brand">Plat</b-navbar-brand>
+    <b-navbar-brand href="#" id="brand">
+      <img
+        src="../assets/platicon.png"
+        class="d-inline-block align-top"
+        alt="logo"
+        width="30"
+        height="30"
+      />
+      Plat
+    </b-navbar-brand>
     <b-navbar-toggle target="navbarSupportedContent"></b-navbar-toggle>
     <b-collapse id="navbarSupportedContent" is-nav>
       <b-navbar-nav class="mr-auto" small>
