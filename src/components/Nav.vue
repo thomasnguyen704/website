@@ -1,14 +1,14 @@
 <template>
   <b-navbar toggleable="lg" type="dark" variant="dark" fixed="top">
-    <b-navbar-brand href="#" id="brand">
+    <b-navbar-brand href="#top" id="brand">
       <img
-        src="../assets/platicon.png"
+        src="../assets/plat_logo.png"
         class="d-inline-block align-top"
         alt="logo"
         width="30"
         height="30"
+        alt-img="plat logo"
       />
-      Plat
     </b-navbar-brand>
     <b-navbar-toggle target="navbarSupportedContent"></b-navbar-toggle>
     <b-collapse id="navbarSupportedContent" is-nav>
@@ -23,12 +23,10 @@
 
 <script>
 export default {
-  name: "Nav",
-  /*props: {
-    msg: String,
-  },*/
+  name: "Nav"
 };
 </script>
+
 <style scoped>
 #brand {
   font-family: "Pacifico", cursive;

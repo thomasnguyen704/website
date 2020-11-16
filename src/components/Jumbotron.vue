@@ -1,33 +1,29 @@
 <template>
+<div id="top">
   <b-jumbotron
     id="jumbo"
-    text-variant="white"
     fluid
     class="customjumbo"
     lead-tag="h2"
     header-tag="h1"
   >
-    <template #header><h1 class="cursive display-1">Plat</h1></template>
-
-    <template #lead> Everyday is Payday! </template>
+    <h1 class="cursive display-1">Plat</h1>
+    <p class="lead">Everyday is Payday!</p>
     <video
       src="../assets/jumbo_video.mp4"
       autoplay
       loop
       playsinline
-      muted
-    ></video>
-
-    <b-button variant="primary" href="#content">More</b-button>
+      muted 
+    />
+    <b-button variant="primary" href="#content" class="mt-4">More</b-button>
   </b-jumbotron>
+</div>
 </template>
 
 <script>
 export default {
-  name: "Jumbotron",
-  /*props: {
-    msg: String,
-  },*/
+  name: "Jumbotron"
 };
 </script>
 
