@@ -16,7 +16,7 @@
       playsinline
       muted 
     />
-    <b-button variant="primary" href="#content" class="mt-4">More</b-button>
+    <b-button variant="info" href="#content" class="mt-4">More</b-button>
   </b-jumbotron>
 </div>
 </template>
@@ -29,6 +29,9 @@ export default {
 
 
 <style scoped>
+h1 {
+  color: orange;
+}
 #jumbo {
   margin: 0px;
   border-radius: 0 !important;
