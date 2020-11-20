@@ -1,8 +1,13 @@
 <template>
   <article id="content">
-
     <b-container id="mission">
-      <h2 class="font-weight-light">Plat is not just a financial management app, it’s also a way of living. At Plat we want you to live your best life and we know finances are part of that life. Plat helps you to budget without budgeting, we give without taking credit, and we guide you on your financial journey without interfering.</h2>
+      <h2 class="font-weight-light">
+        Plat is not just a financial management app, it’s also a way of living.
+        At Plat we want you to live your best life and we know finances are part
+        of that life. Plat helps you to budget without budgeting, we give
+        without taking credit, and we guide you on your financial journey
+        without interfering.
+      </h2>
     </b-container>
 
     <div class="bg-light" id="howitworks">
@@ -35,7 +40,7 @@
             title-tag="h5"
           >
             <b-card-text>
-              {{ card.title }} <br/>
+              {{ card.title }} <br />
               <a
                 v-for="social in card.social"
                 :key="social.url"
@@ -63,11 +68,13 @@ export default {
           title: "Founder",
           social: [
             {
-              url: "https://www.linkedin.com/in/aaron-bridgers-cfa-frm-cia-512b8b9/",
+              url:
+                "https://www.linkedin.com/in/aaron-bridgers-cfa-frm-cia-512b8b9/",
               name: "linkedin",
             },
           ],
-        },{
+        },
+        {
           name: "Chris Kennedy",
           pic: "chris.jpg",
           title: "Founder",
@@ -77,7 +84,8 @@ export default {
               name: "linkedin",
             },
           ],
-        },{
+        },
+        {
           name: "Daniel Stahl",
           pic: "daniel.jpg",
           title: "Founder",
@@ -91,20 +99,21 @@ export default {
               name: "linkedin",
             },
           ],
-        },{
+        },
+        {
           name: "Thomas Nguyen",
           pic: "thomas.jpg",
           title: "Founder",
           social: [
-            { 
-              url: "https://www.linkedin.com/in/nguyentom/", 
-              name: "linkedin" 
+            {
+              url: "https://www.linkedin.com/in/nguyentom/",
+              name: "linkedin",
             },
           ],
         },
       ],
     };
-  }
+  },
 };
 </script>
 
