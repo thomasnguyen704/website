@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-dark py-5">
-    <b-container> Footer </b-container>
+    <b-container>   </b-container>
   </footer>
 </template>
 
